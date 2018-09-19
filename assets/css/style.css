@@ -4,32 +4,9 @@
 	box-sizing: border-box;
 }
 
-.container {
-	width: 100%;
-}
+.img {
 
+	width: 400px;
+	height: 300px;
 
-.row {
-	height: 100px;
-}
-
-.row1 {
-	background-color: lightblue;
-	border: 1px solid black;
-}
-
-
-.row2 {
-	background-color: turquoise;
-	border: 1px solid black;
-}
-
-.row3 {
-	background-color: orangered;
-	border: 1px solid black;
-}
-
-.row4 {
-	background-color: indianred;
-	border: 1px solid black;
 }
