@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<!-- personalized.css -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/stylelandingpage.css">
 
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">	
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/stylelandingpage.css">
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
@@ -21,10 +21,10 @@
 </head>
 
 <body>
-<div class="container">
 
-		<header class="header">
-			<nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top">
+
+	<div class="header container-fluid px-0">
+			<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 			<a href="landingpage.html" class="navbar-brand"><img style="width: 64px; height: 64px;"src="./assets/images/stat_logo.jpg"></a>
 
 		<!-- 		<a href="landingpage.html" class="navbar-brand"><img style="width: 64px; height: 64px;"src="./assets/images/stat_logo.jpg"></a> -->
@@ -38,32 +38,90 @@
 							<a href="#aboutme" class="nav-link nav-decor">ABOUT US</a>
 						</li>
 						<li class="nav-item">
-							<a href="#portfolio" class="nav-link nav-decor"> OUR SERVICES</a>
+							<a href="services.html" class="nav-link nav-decor"> OUR SERVICES</a>
 						</li>
 						<li class="nav-item">
-							<a href="#mainfooter" class="nav-link nav-decor">CONTACT US</a>
+							<a href="contact.html" class="nav-link nav-decor">CONTACT US</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
-		</header>
+	
 
 
-<div class="form-container">
+<div class=" row form-container text-justify" id="services" >
 
-	<div class="jumbotron">
+	<!-- <div class="jumbotron">
 	  <h1 class="display-4">Our Services</h1>
 	  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
 	  <p  class="lead">It uses utility classes for typography and spacing to space content out within the larger container.</p>
 	  <p class="lead">
 	    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 	  </p>
-	</div>
+	</div> -->
 
 	<div class="card col-lg-4">
-		<img src="./assets/images/training.jpg" class="card-img-top">
-		<div class="card-body">
-			<h5 class="card-title">Statistics Tutoring/Training</h5>
+	
+		<div class="card-services">
+		<h5 class="card-title text-center">Statistics Tutoring/Training</h5>
+		<img src="./assets/images/training.jpg" class="card-img-bottom">
+		<p>We provide training courses to our clients.</p>
+		<a href="contact.html" class="btn btn-primary">Inquire</a>
+		</div>
+	</div>
+	<div class="card col-lg-4">
+	
+		<div class="card-services">
+			<h5 class="card-title text-center">Data Analysis</h5>
+			<img src="./assets/images/l2.jpg" class="card-img-top">
+			<p> We are aware that this is a vital part of any assignment or studies. We aim to help our clients to choose an appropriate methodology to analyze provided data. This may include include assistance with the research design, research purpose, sampling, sample size, target population, data collection method (primary or secondary data), if primary, research tools proposed to apply (e.g. questionnaire or focus group, or interview guide), pilot study, validity and reliability of the study, ethics, data analysis and limitations of the proposed methodology.</p>
+			<a href="contact.html" class="btn btn-primary">Inquire</a>
+		
+		</div>
+	</div>
+	<div class="card col-lg-4">
+		<div class="card-services">
+			<h5 class="card-title text-center">Research Planning</h5>
+			<img src="./assets/images/thesis.jpg" class="card-img-top">
+	
+			
+			<p> Before a project starts, it is important that the researchers are aware of the appropriate research design. Based on your research topic, we will assist you to device the appropriate research design in attainment of your research objectives. We also give recommendation on the questionnaire specifically on the research questions for the generation of an effective outcome.</p>
+			<a href="contact.html" class="btn btn-primary">Inquire</a>
+		
+		</div>
+	</div>
+</div>
+
+<div class=" row form-container text-justify" id="services" >
+
+	<!-- <div class="jumbotron">
+	  <h1 class="display-4">Our Services</h1>
+	  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+	  <p  class="lead">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+	  <p class="lead">
+	    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+	  </p>
+	</div> -->
+
+	<div class="card col-lg-4">
+	
+		<div class="card-services">
+		<h5 class="card-title text-center">Data Collection</h5>
+		<img src="./assets/images/training.jpg" class="card-img-bottom">
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<a href="contact.html" class="btn btn-primary">Inquire</a>
+		</div>
+	</div>
+	<div class="card col-lg-4">
+	
+		<div class="card-services">
+			<h5 class="card-title text-center">Data Mining</h5>
+			<img src="./assets/images/l2.jpg" class="card-img-top">
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -75,23 +133,26 @@
 		</div>
 	</div>
 	<div class="card col-lg-4">
-		<img src="./assets/images/l2.jpg" class="card-img-top">
-		<div class="card-body">
-			<h5 class="card-title">Data Analysis</h5>
-			<p> Research methodology assignment or coursework is part of the Master’s and PhD programme. The coursework helps the students to get familiar on the different methodologies been followed in their specialization and thereby assists them to choose an appropriate methodology that best suits for the purpose of the dissertation. The section of the research methodology includes the research design, research purpose, sampling, sample size, target population, data collection method (primary or secondary data), if primary, research tools proposed to apply (e.g. questionnaire or focus group, or interview guide), pilot study, validity and reliability of the study, ethics, data analysis and limitations of the proposed methodology.</p>
-			<a href="contact.html" class="btn btn-primary">Inquire</a>
-		
-		</div>
-	</div>
-	<div class="card col-lg-4">
-		<img src="./assets/images/thesis.jpg" class="card-img-top">
-		<div class="card-body">
-			<h5 class="card-title">Research Planning</h5>
-			<p> Experts at Statswork assist researchers in planning process by outlining an appropriate research design. We present researchers with research designs that would tend to provide concrete answers to pressing research questions related to the research topic of the study. Further, we assess and evaluate the research question based on which research will be conducted. By evaluating the research question, we determine whether the question will serve the overall research objective, depending on that we refine and modify the research question which will facilitate generation of an effective outcome.</p>
+		<div class="card-services">
+			<h5 class="card-title text-center">Sample Size Calculation</h5>
+			<img src="./assets/images/thesis.jpg" class="card-img-top">
+	
+			
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<a href="contact.html" class="btn btn-primary">Inquire</a>
 		
 		</div>
 	</div>
 </div>
+	<section class="footer">
+		<p>StatPro Society &copy; 2018</p>
+		
+	</section>
+
 </body>
 </html>
