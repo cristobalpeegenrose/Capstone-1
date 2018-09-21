@@ -7,7 +7,7 @@
 
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">	
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/stylelandingpage.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
@@ -22,137 +22,110 @@
 
 <body>
 
-
 	<div class="header container-fluid px-0">
-			<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 			<a href="landingpage.html" class="navbar-brand"><img style="width: 64px; height: 64px;"src="./assets/images/stat_logo.jpg"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="home.html" class="nav-link nav-decor"><i class="fas fa-home"></i></a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link nav-decor">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a href="services.html" class="nav-link nav-decor"> OUR SERVICES</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link nav-decor">CONTACT US</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-		<!-- 		<a href="landingpage.html" class="navbar-brand"><img style="width: 64px; height: 64px;"src="./assets/images/stat_logo.jpg"></a> -->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button>
-				<div class="collapse navbar-collapse" id="navbarContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a href="home.html" class="nav-link nav-decor"><i class="fas fa-home"></i></a>
-						</li>
-						<li class="nav-item">
-							<a href="#aboutme" class="nav-link nav-decor">ABOUT US</a>
-						</li>
-						<li class="nav-item">
-							<a href="services.html" class="nav-link nav-decor"> OUR SERVICES</a>
-						</li>
-						<li class="nav-item">
-							<a href="contact.html" class="nav-link nav-decor">CONTACT US</a>
-						</li>
-					</ul>
+		<div class="jumbotron-fluid">
+		<br>
+			<div class ="container-jumbotron text-center">
+			   <h1>Don't let Statistics overwhelm you!</h1>
+			   <h2>We are here to help.</h2>
+				<h5>We offer Statistical Consulting for Businesses and Academic Research.</h5>
+			   <br>
+			</div>
+		</div>
+		<div class="container-services container-fluid">
+		<div class=" row form-container text-justify container-fluid" id="services" >
+			<div class="card col-lg-6">
+				<div class="card-services">
+					<p class="text-center"> <h5 class="card-title text-center">Statistics Tutoring/Training</h5> 	<img src="./assets/images/training.jpg" class="card-img-top img-fluid">We provide training courses to our clients based on the topic of their interest or as applicable to their business needs or classes. </p>
+					
 				</div>
-			</nav>
-	
-
-
-<div class=" row form-container text-justify" id="services" >
-
-	<!-- <div class="jumbotron">
-	  <h1 class="display-4">Our Services</h1>
-	  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-	  <p  class="lead">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-	  <p class="lead">
-	    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-	  </p>
-	</div> -->
-
-	<div class="card col-lg-4">
-	
-		<div class="card-services">
-		<h5 class="card-title text-center">Statistics Tutoring/Training</h5>
-		<img src="./assets/images/training.jpg" class="card-img-bottom">
-		<p>We provide training courses to our clients.</p>
-		<a href="contact.html" class="btn btn-primary">Inquire</a>
+			</div>
+			<div class="card col-lg-6">
+				<div class="card-services">
+				<p class="text-center"> <h5 class="card-title text-center">Data Analysis</h5> <img src="./assets/images/l2.jpg" class="card-img-top img-fluid"> We are aware that data analysis is a vital part of any assignment or studies. We aim to help our clients to choose an appropriate methodology to analyze provided data. This may include assistance with the research design, research purpose, sampling, sample size, target population, data collection method  <br></p>
+				</div>
+			</div>
 		</div>
-	</div>
-	<div class="card col-lg-4">
-	
-		<div class="card-services">
-			<h5 class="card-title text-center">Data Analysis</h5>
-			<img src="./assets/images/l2.jpg" class="card-img-top">
-			<p> We are aware that this is a vital part of any assignment or studies. We aim to help our clients to choose an appropriate methodology to analyze provided data. This may include include assistance with the research design, research purpose, sampling, sample size, target population, data collection method (primary or secondary data), if primary, research tools proposed to apply (e.g. questionnaire or focus group, or interview guide), pilot study, validity and reliability of the study, ethics, data analysis and limitations of the proposed methodology.</p>
-			<a href="contact.html" class="btn btn-primary">Inquire</a>
-		
-		</div>
-	</div>
-	<div class="card col-lg-4">
-		<div class="card-services">
-			<h5 class="card-title text-center">Research Planning</h5>
-			<img src="./assets/images/thesis.jpg" class="card-img-top">
-	
+
+		<div class=" row form-container text-justify container-fluid" id="services" >
+			<div class="card col-lg-6">
 			
-			<p> Before a project starts, it is important that the researchers are aware of the appropriate research design. Based on your research topic, we will assist you to device the appropriate research design in attainment of your research objectives. We also give recommendation on the questionnaire specifically on the research questions for the generation of an effective outcome.</p>
-			<a href="contact.html" class="btn btn-primary">Inquire</a>
-		
-		</div>
-	</div>
-</div>
-
-<div class=" row form-container text-justify" id="services" >
-
-	<!-- <div class="jumbotron">
-	  <h1 class="display-4">Our Services</h1>
-	  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-	  <p  class="lead">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-	  <p class="lead">
-	    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-	  </p>
-	</div> -->
-
-	<div class="card col-lg-4">
-	
-		<div class="card-services">
-		<h5 class="card-title text-center">Data Collection</h5>
-		<img src="./assets/images/training.jpg" class="card-img-bottom">
-		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<a href="contact.html" class="btn btn-primary">Inquire</a>
-		</div>
-	</div>
-	<div class="card col-lg-4">
-	
-		<div class="card-services">
-			<h5 class="card-title text-center">Data Mining</h5>
-			<img src="./assets/images/l2.jpg" class="card-img-top">
-			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<a href="contact.html" class="btn btn-primary">Inquire</a>
-		
-		</div>
-	</div>
-	<div class="card col-lg-4">
-		<div class="card-services">
-			<h5 class="card-title text-center">Sample Size Calculation</h5>
-			<img src="./assets/images/thesis.jpg" class="card-img-top">
-	
+				<div class="card-services">
+				<h5 class="card-title text-center">Data Collection</h5>
+				<img src="./assets/images/training.jpg" class="card-img-top img-fluid">
+				<p> Regardless of the field of study or preference for defining data (quantitative, qualitative), accurate data collection is essential to maintaining the integrity of research. Both the selection of appropriate data collection instruments (existing, modified, or newly developed) and clearly delineated instructions for their correct use reduce the likelihood of errors occurring.</p>
 			
-			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<a href="contact.html" class="btn btn-primary">Inquire</a>
-		
+				</div>
+			</div>
+			<div class="card col-lg-6">
+			
+				<div class="card-services">
+					<h5 class="card-title text-center">Data Mining</h5>
+					<img src="./assets/images/l2.jpg" class="card-img-top img-fluid">
+					<p> We will help you analyze hidden patterns of data according to different perspectives for categorization into useful information for efficient analysis, data mining algorithms, facilitating business decision making and other information requirements to ultimately cut costs and increase your business revenue.</p>
+								
+				</div>
+			</div>
+		</div>
+
+		<div class=" row form-container text-justify container-fluid" id="services" >
+			<div class="card col-lg-6">
+				<div class="card-services">
+					<h5 class="card-title text-center">Sample Size Calculation</h5>
+					<img src="./assets/images/thesis.jpg" class="card-img-top img-fluid">
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+				</div>
+			</div>
+			<div class="card col-lg-6">
+				<div class="card-services">
+					<h5 class="card-title text-center">Research Planning</h5>
+					<img src="./assets/images/thesis.jpg" class="card-img-top img-fluid">
+					<p> Before a project starts, it is important that the researchers are aware of the appropriate research design. Based on your research topic, we will assist you to device the appropriate research design in attainment of your research objectives. We also give recommendation on the questionnaire specifically on the research questions for the generation of an effective outcome.</p>
+					
+				</div>
+			</div>
+		</div>
+		<div class="jumbotron-fluid">
+			<br>
+			<div class ="container-jumbotron text-center">
+				<h5>We offer Statistical Consulting for Businesses and Academic Research.</h5>
+				<button class="btn"><a href="contact.html"></a>Inquire</button>
+				<br>
+			   <br>
+			</div>
 		</div>
 	</div>
-</div>
-	<section class="footer">
-		<p>StatPro Society &copy; 2018</p>
-		
-	</section>
+	<div class="footer container-fluid">
+			<p>StatPro Society &copy; 2018</p>
+	</div>
+</div>	
 
 </body>
 </html>

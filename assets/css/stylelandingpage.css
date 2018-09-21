@@ -64,7 +64,7 @@ body, html {
 
 
 .btn:hover {
-	background-color: #F4976C;
+	background-color:#FFB739;
 	color: white;
 }
 
@@ -78,7 +78,7 @@ body, html {
 
 
 /*home*/
-.card {
+.card, .card-about {
 	float: left;
 	border: none;
 	padding: none;
@@ -143,13 +143,13 @@ clear: both;
 	width: 100%;
 	height: 90%;
 	background-size: cover;
-	color: #F4976C;
+	color: #DBE8F9;
 	padding: 100px 0 0 50px;
 }
 
 
 .col {
-	background-color: #466289; 
+	background-color:  #466289; 
 	border-radius: 5%;
 	padding: 5px 0;
 	text-align: center;
@@ -158,9 +158,13 @@ clear: both;
 
 /*About*/
 .aboutus {
-	padding-left: 20px;
+
 	text-align: left;
 	border: none;
+
+	margin: 20px;
+	opacity: 30%;
+
 }
 
 .aboutus>h2, .ourteam {
@@ -169,24 +173,31 @@ clear: both;
 }
 
 #about {
-	background-color: #466289;
-	color: white;
+	color:  #303C6C;
+/*	background-color: #466289;*/
+	/*background-image: url("../../assets/images/thesis.jpg");
+	height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	border: none;
+	margin: 0 20px;*/
 }
 
 
-.card>img {
+.card-about>img {
 	height: 100px;
 	width: 100px;
-
+	border-radius: 40%;
 }
+
 
 /*Services*/
 
 
-.card-services, .row, .card {
+.card-services, .card {
 	border: none;
-	background-color: #466289;
+/*	background-color: #466289;*/
 }
 
 .card>div>img {
@@ -197,8 +208,8 @@ clear: both;
 }
 
 #services {
-	color: #DBE8F9;
+/*	color: #DBE8F9;*/
 	padding-top: 20px;
-	background-color: #466289;
+/*	background-color: #466289;*/
 }
 
