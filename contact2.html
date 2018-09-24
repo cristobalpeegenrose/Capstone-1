@@ -11,13 +11,14 @@
 	<link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
-	<title>Landing Page</title>
+	<title>Contact Us</title>
 </head>
 <body>
-	<div class="header sticky-top">
-			<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-				<a href="landingpage.html" class="navbar-brand"><i class="fas fa-chart-line"></i> &Sigma;&tau;&alpha;&tau;Pro Society</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button>
+	<div class="container-fluid px-0" id="container-contacts">
+		<header class="header sticky-top">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+			<a href="landingpage.html" class="navbar-brand"><i class="fas fa-chart-line"></i> &Sigma;&tau;&alpha;&tau;Pro Society</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -35,18 +36,41 @@
 					</ul>
 				</div>
 			</nav>
-	</div>
-	<div class="jumbotron-landing jumbotron-fluid">
-		<div class = "container1-jumbotron">
-		   <h1>Need help with your complex data?</h1>
-			<h5>We offer Statistical Consulting and Data Analysis services, let us help you!</h5>
-		   <br>
-	    	<a href="home.html"><button class="btn btn-lg">Know more</button></a>
+		</header>
+
+		<div class="jumbotron-contact jumbotron-fluid mb-0">
+			<div class="container-details">
+				<div class="row-contact">
+				  	<div class="col offset-lg-4 col-lg-4 col-sm-12 offset-md-2 col-md-8">
+
+						<h2>Drop us a message</h2>
+						<hr>
+						<form>
+							<div class="form-group">
+								<label for="fullname">Your Full Name</label>
+								<input type="text" name="fullname" id="fullname" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="contact">Contact Number</label>
+								<input type="contact" name="contact" id="contact" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="emailadd">Email Address</label>
+								<input type="email" name="emailadd" id="emailadd" class="form-control">
+							</div>
+							<div class="form-group">
+								<p>Your Message</p>
+								<textarea class="form-control">Details of Inquiry</textarea>
+							</div>
+							<button type="submit" class="btn btn-submit">Submit Details</button>
+						</form>
+					
+					</div>
+				</div>
+			</div>
 		</div>
 
-	</div>
-	
-	<div class="footer">
+		<div class="footer">
 			<div class="footerlogo">
 				<p> &Sigma;&tau;&alpha;&tau;Pro Society &copy; 2018</p>
 			</div>
@@ -66,11 +90,8 @@
 					<h5>Email Us</h5>
 					<p>statprosociety@gmail.com</p>		
 				</div>
-			</div>
-			<div class="footerlogo">
-				<p>Disclaimer: The information contained in this website, the photos, services and/or products is for educational and informational purposes only. </p>
-			</div>			
+			</div>		
 		</div>
-	
+	</div>		
 </body>
 </html>
